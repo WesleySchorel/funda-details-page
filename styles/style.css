@@ -127,3 +127,9 @@ footer ul {
 .color {
   color: #0071B3;
 }
+
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
