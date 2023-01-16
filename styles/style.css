@@ -14,7 +14,6 @@ body {
 }
 
 
-
 h1,
 h2 {
   margin-bottom: 15px;
@@ -88,11 +87,11 @@ ul {
   justify-content: space-between;
 }
 
-.card {
+main {
   padding: 20px;
 }
 
-.card ul {
+main ul {
   display: flex;
   list-style: none;
   padding: 10px;
@@ -116,5 +115,4 @@ footer ul {
   padding: 10px;
   justify-content: space-around;
 }
-
 
