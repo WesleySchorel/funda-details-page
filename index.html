@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" href="styles/style.css" />
+  <script src="scripts/script.js"></script>
   <title>Funda</title>
 </head>
 
@@ -27,7 +28,7 @@
     </div>
   </nav>
   <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
+    <div class="progress-bar" id="scroll-indicator"></div>
   </div>  
   <!-- <header class="header">
 
@@ -97,17 +98,7 @@
 
 </html>
 
-<script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-</script>
 
 
 
