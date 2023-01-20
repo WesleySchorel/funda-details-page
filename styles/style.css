@@ -15,7 +15,6 @@ body {
   margin-bottom: 7rem;
 }
 
-
 h1 {
   margin-bottom: 15px;
 }
@@ -132,14 +131,10 @@ footer ul {
   color: #0071B3;
 }
 
-
 hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
-
-
 
 .like-button {
   background-color: #F7A100;
@@ -163,8 +158,6 @@ hr {
   background-color: #db8e00;
   transform: translateY(3px);
 }
-
-
 
 .progress-container {
   width: 100%;
