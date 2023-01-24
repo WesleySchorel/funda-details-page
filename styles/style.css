@@ -12,20 +12,21 @@ body {
   line-height: 1.5;
   color: #333;
   background: white;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 
 h1 {
   margin-bottom: 15px;
 }
 
-.display-image {
-  margin-bottom: 15px;
-}
-
-
-
-
+/* 
+███╗   ██╗ █████╗ ██╗   ██╗
+████╗  ██║██╔══██╗██║   ██║
+██╔██╗ ██║███████║██║   ██║
+██║╚██╗██║██╔══██║╚██╗ ██╔╝
+██║ ╚████║██║  ██║ ╚████╔╝ 
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝   
+*/
 
 nav {
   background: #F7A100;
@@ -68,6 +69,65 @@ nav ul li {
   margin-left: 20px;
 }
 
+/* 
+██████╗ ██████╗  ██████╗  ██████╗ ██████╗ ███████╗███████╗███████╗    ██████╗  █████╗ ██████╗ 
+██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗██╔════╝██╔════╝██╔════╝    ██╔══██╗██╔══██╗██╔══██╗
+██████╔╝██████╔╝██║   ██║██║  ███╗██████╔╝█████╗  ███████╗███████╗    ██████╔╝███████║██████╔╝
+██╔═══╝ ██╔══██╗██║   ██║██║   ██║██╔══██╗██╔══╝  ╚════██║╚════██║    ██╔══██╗██╔══██║██╔══██╗
+██║     ██║  ██║╚██████╔╝╚██████╔╝██║  ██║███████╗███████║███████║    ██████╔╝██║  ██║██║  ██║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ 
+*/
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  position: fixed;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #db8e00;
+  width: 0%;
+}
+
+/* 
+██╗    ██╗██████╗  █████╗ ██████╗ ██████╗ ███████╗██████╗ 
+██║    ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+██║ █╗ ██║██████╔╝███████║██████╔╝██████╔╝█████╗  ██████╔╝
+██║███╗██║██╔══██╗██╔══██║██╔═══╝ ██╔═══╝ ██╔══╝  ██╔══██╗
+╚███╔███╔╝██║  ██║██║  ██║██║     ██║     ███████╗██║  ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝
+*/
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.wrapper .item {
+  min-width: 90%;
+  margin: 5px;
+}
+
+.Display_Gallery_House {
+  width: 100%;
+}
+
+/* 
+███╗   ███╗ █████╗ ██╗███╗   ██╗
+████╗ ████║██╔══██╗██║████╗  ██║
+██╔████╔██║███████║██║██╔██╗ ██║
+██║╚██╔╝██║██╔══██║██║██║╚██╗██║
+██║ ╚═╝ ██║██║  ██║██║██║ ╚████║
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+*/
+
 main {
   padding: 20px;
 }
@@ -77,10 +137,55 @@ main ul {
   list-style-type: none;
 }
 
+main li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 main a {
   color: #0071B3;
   text-decoration: none;
 }
+
+#check {
+  display: none;
+}
+
+.content {
+  display: none;
+  transition: 0.5s linear;
+  margin-top: 15px;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #0071B3;
+}
+
+#check:checked~.content {
+  display: block;
+}
+
+#check:checked~label {
+  visibility: hidden;
+}
+
+#check:checked~label:after {
+  content: "- Toon korte omschrijving";
+  display: block;
+  visibility: visible;
+}
+
+/* 
+███████╗ ██████╗  ██████╗ ████████╗███████╗██████╗ 
+██╔════╝██╔═══██╗██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗
+█████╗  ██║   ██║██║   ██║   ██║   █████╗  ██████╔╝
+██╔══╝  ██║   ██║██║   ██║   ██║   ██╔══╝  ██╔══██╗
+██║     ╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║
+╚═╝      ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝
+*/
 
 footer {
   position: fixed;
@@ -110,7 +215,7 @@ hr {
   margin-bottom: 1.5rem;
 }
 
-.like-button {
+.bottom_buttons {
   background-color: #F7A100;
   border: none;
   border-radius: 5px;
@@ -124,60 +229,31 @@ hr {
   cursor: pointer;
 }
 
-.like-button:hover {
+.bottom_buttons:hover {
   background-color: #db8e00
 }
 
-.like-button:active {
+.bottom_buttons:active {
   background-color: #db8e00;
   transform: translateY(3px);
 }
 
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-  position: fixed;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #db8e00;
-  width: 0%;
-}
-
-summary {
-  color: #0071B3;
-}
-
-
-
-#check {
-  display: none;
-}
-
-.content {
-  display: none;
-  transition: 0.5s linear;
-  margin-top: 15px;
-}
-
-label {
-  display: inline-block;
-  margin-top: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  color: #0071B3;
-}
-
-#check:checked ~ .content {
-  display: block;
-}
-#check:checked ~ label {
-  visibility: hidden;
-}
-#check:checked ~ label:after {
-  content: "- Toon korte omschrijving";
-  display: block;
-  visibility: visible;
+/* 
+███╗   ███╗███████╗██████╗ ██╗ █████╗      ██████╗ ██╗   ██╗███████╗██████╗ ██╗   ██╗███████╗
+████╗ ████║██╔════╝██╔══██╗██║██╔══██╗    ██╔═══██╗██║   ██║██╔════╝██╔══██╗╚██╗ ██╔╝██╔════╝
+██╔████╔██║█████╗  ██║  ██║██║███████║    ██║   ██║██║   ██║█████╗  ██████╔╝ ╚████╔╝ ███████╗
+██║╚██╔╝██║██╔══╝  ██║  ██║██║██╔══██║    ██║▄▄ ██║██║   ██║██╔══╝  ██╔══██╗  ╚██╔╝  ╚════██║
+██║ ╚═╝ ██║███████╗██████╔╝██║██║  ██║    ╚██████╔╝╚██████╔╝███████╗██║  ██║   ██║   ███████║
+╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝     ╚══▀▀═╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ 
+*/
+                                                                                             
+@media (min-width: 769px) {
+  main {
+    margin: auto;
+    width: 1040px; 
+    padding: 50px;
+  }
+  footer {
+    display: none;
+  }
 }
