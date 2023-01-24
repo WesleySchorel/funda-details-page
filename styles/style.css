@@ -115,7 +115,7 @@ nav ul li {
   margin: 5px;
 }
 
-.Display_Gallery_House {
+.display_gallery_house {
   width: 100%;
 }
 
@@ -177,6 +177,7 @@ label {
   display: block;
   visibility: visible;
 }
+
 
 /* 
 ███████╗ ██████╗  ██████╗ ████████╗███████╗██████╗ 
@@ -253,6 +254,11 @@ hr {
     width: 1040px; 
     padding: 50px;
   }
+
+  .vergelijkbaar {
+    display: none;
+  }
+
   footer {
     display: none;
   }
