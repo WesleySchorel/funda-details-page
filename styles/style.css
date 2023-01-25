@@ -32,20 +32,21 @@ nav {
   background: #F7A100;
   color: #fff;
   height: 60px;
+  margin: 0;
   position: sticky;
   top: 0;
 }
 
 nav .logo {
   font-size: x-large;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 nav a:hover {
