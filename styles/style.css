@@ -1,3 +1,34 @@
+:root {
+
+  /* styleguide colors */
+  --c-white: #fff;
+  --c-gray: #f1f1f1;
+  
+  --c-orange: #F7A100;
+  --c-dark-orange: #db8e00;
+
+  --c-blue: #0071B3;
+
+  /* custom properties colors */
+
+  --nav: var(--c-orange);
+  --background: var(--c-white);
+
+  --global-text: #000;
+
+  --progress-container: var(--c-gray);
+  --progress-bar: var(--c-dark-orange);
+
+  --link: var(--c-blue);
+
+  --footer:  var(--c-gray);
+  --footer-shadow: 0px 0 10px rgba(0, 0, 0, 0.354);
+
+  --footer-button: var(--c-orange);
+  --footer-button-hover: var(--c-dark-orange);
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,8 +41,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
-  background: white;
+  color: var(--global-text);
+  background: var(--background);
   margin-bottom: 3rem;
 }
 
@@ -29,8 +60,7 @@ h1 {
 */
 
 nav {
-  background: #F7A100;
-  color: #fff;
+  background: var(--nav);
   height: 60px;
   margin: 0;
   position: sticky;
@@ -40,17 +70,6 @@ nav {
 nav .logo {
   font-size: x-large;
   font-weight: 600;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-nav a:hover {
-  color: rgb(230, 204, 173);
 }
 
 nav .menu {
@@ -82,13 +101,13 @@ nav ul li {
 .progress-container {
   width: 100%;
   height: 8px;
-  background: #ccc;
+  background: var(--progress-container);
   position: fixed;
 }
 
 .progress-bar {
   height: 8px;
-  background: #db8e00;
+  background: var(--progress-bar);
   width: 0%;
 }
 
@@ -138,12 +157,18 @@ main ul {
   list-style-type: none;
 }
 
-main li:not(:last-child) {
+main li {
   margin-bottom: 5px;
+  list-style-position: inside;
+}
+
+main .in_de_buurt li::marker{
+  content: "+";
+  color: var(--link);
 }
 
 main a {
-  color: #0071B3;
+  color: var(--link);
   text-decoration: none;
 }
 
@@ -162,7 +187,7 @@ label {
   margin-top: 10px;
   cursor: pointer;
   text-decoration: none;
-  color: #0071B3;
+  color: var(--link);
 }
 
 #check:checked~.content {
@@ -194,10 +219,9 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f1f1f1;
-  color: white;
+  background-color: var(--footer);
   text-align: center;
-  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.354);
+  box-shadow: var(--footer-shadow);
 }
 
 footer ul {
@@ -218,10 +242,10 @@ hr {
 }
 
 .bottom_buttons {
-  background-color: #F7A100;
+  background-color: var(--footer-button);
   border: none;
   border-radius: 5px;
-  color: white;
+  color: black;
   padding: 12px 36px;
   text-align: center;
   text-decoration: none;
@@ -232,11 +256,11 @@ hr {
 }
 
 .bottom_buttons:hover {
-  background-color: #db8e00
+  background-color: var(--footer-button-hover);
 }
 
 .bottom_buttons:active {
-  background-color: #db8e00;
+  background-color: var(--footer-button-hover);
   transform: translateY(3px);
 }
 
@@ -254,10 +278,6 @@ hr {
     margin: auto;
     width: 1040px; 
     padding: 50px;
-  }
-
-  .vergelijkbaar {
-    display: none;
   }
 
   footer {
