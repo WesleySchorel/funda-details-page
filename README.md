@@ -3,8 +3,11 @@
 # Funda Details Page
 
 ## 📸Screenshot van de website
+![image](https://user-images.githubusercontent.com/112857487/214805857-01c87d17-e5e7-4400-ba95-a24f86b17cfc.png)
+
 
 ![image](https://user-images.githubusercontent.com/112857487/214556523-de856c44-f570-4071-a136-ee99f9cc045b.png)
+
 
 ## 👩💼Opdrachtgever
 Funda
