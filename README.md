@@ -2,6 +2,18 @@
 
 # Funda Details Page
 
+## 📚 Inhoud
+Opdrachtgever https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#screenshot-van-de-website
+
+Opdrachtgever https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#opdrachtgever
+
+Design Challenge https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#design-challenge
+
+Gebruik van de website https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#gebruik-van-de-website-desktop
+
+checklist wel gelukt / niet gelukt https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#checklist-wel-gelukt--niet-gelukt
+
+
 ## 📸Screenshot van de website
 ![image](https://user-images.githubusercontent.com/112857487/214805857-01c87d17-e5e7-4400-ba95-a24f86b17cfc.png)
 
@@ -10,12 +22,13 @@
 
 
 ## 👩💼Opdrachtgever
-Funda
+###Funda
+Funda is een Nederlandse organisatie gevestigd in Amsterdam die Nederlands onroerend goed op internet presenteert. De hoofdsite van funda is funda.nl. Met rond de 68 miljoen bezoeken per maand is funda.nl een van de drukst bezochte huizensites van Nederland.
 
 ## 🚀Design challenge
 De design challenge die de opdracht gever (Funda) mij gegeven heeft is het ontwerpen en het ontwikkelen van een hernieuwde object detail pagina.
 
-## 👩💻📱Gebruik van de website desktop
+## 👩💻📱Gebruik van de website
 Wanneer je de website bezoekt kom je op een pagina waar je als eerste de naam van het gebouw en het adress opvolgend vind je een aantal foto's vind van het huis of pand dat je wilt bezichtigen. Je kunt swipen door deze lijst met foto's. Je vind hier onder een korte omschrijving van het huis of pand dat je aan het bekijken bent. Je kan hier op  Lees de volledige omschrijving klikken om een langere versie van de korte omschrijving te zien. Je kan hierna op "toon korte omschrijving" klikken om de uitgebreidere versie van de omschrijving weer te verbergen. Verder kun je Kenmerken over het gebouw, Activiteit van de pagina en infomratie over de buurt vinden. Als worden er drie geebouwen aangeboden die vergelijkbaar zijn met het huidige gebouw dat je aan het bekijken bent.
 
 ## 🚧checklist wel gelukt / niet gelukt
