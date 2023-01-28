@@ -3,15 +3,15 @@
 # Funda Details Page
 
 ## 📚 Inhoud
-Opdrachtgever https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#screenshot-van-de-website
+Screenshots van de website https://github.com/WesleySchorel/funda-details-page#opdrachtgever
 
-Opdrachtgever https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#opdrachtgever
+Opdrachtgever https://github.com/WesleySchorel/funda-details-page#opdrachtgever
 
-Design Challenge https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#design-challenge
+Design Challenge https://github.com/WesleySchorel/funda-details-page#design-challenge
 
-Gebruik van de website https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#gebruik-van-de-website-desktop
+Gebruik van de website https://github.com/WesleySchorel/funda-details-page#gebruik-van-de-website
 
-checklist wel gelukt / niet gelukt https://github.com/WesleySchorel/funda-details-page/edit/main/README.md#checklist-wel-gelukt--niet-gelukt
+checklist wel gelukt / niet gelukt https://github.com/WesleySchorel/funda-details-page#checklist-wel-gelukt--niet-gelukt
 
 
 ## 📸Screenshot van de website
